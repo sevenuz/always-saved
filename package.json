@@ -1,0 +1,20 @@
+{
+    "name": "always-saved",
+    "main": "./lib/always-saved",
+    "version": "0.0.0",
+    "description": "Saves your files directly after changes or in an interval",
+    "keywords": ["save", "saver", "auto-save"],
+    "activationCommands": {
+        "atom-workspace": "always-saved:toggle"
+    },
+    "repository": "https://github.com/atom/always-saved",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {},
+    "jshintConfig": {
+        "node": true,
+        "esversion": 6
+    }
+}

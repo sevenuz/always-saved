@@ -1,0 +1,12 @@
+{
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Always-saved",
+            "submenu": [{
+                "label": "Toggle",
+                "command": "always-saved:toggle"
+            }]
+        }]
+    }]
+}
